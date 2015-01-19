@@ -1,0 +1,21 @@
+<template name="leaderboard">
+
+{{#each quizzes}}
+    <div class = "leaderboardquiz quiz">
+        <div class="quiz-content">
+            {{quiztitle}}
+        </div>
+    </div>
+
+    {{#each quizzessorted}}
+            <div class="quiz scores">
+                <div id ="score">{{this.score}}</div>
+                <div class="quiz-content">
+                    <h3>{{this.user}}</h3>
+
+                </div>
+            </div>
+            {{/each}}
+    {{/each}}
+
+</template>

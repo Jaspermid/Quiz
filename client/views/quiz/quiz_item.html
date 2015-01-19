@@ -1,0 +1,22 @@
+<template name="quizItem">
+    <div class ="list">
+    <div class="quiz">
+        <div class="quiz-content">
+
+                <h3> <a href="{{pathFor 'quizPage'}}">{{quiztitle}} </a><span>{{category}} {{user}} </span>
+
+
+            </h3>
+
+                </div>
+
+        {{#if currentUser}}
+            {{#if currentUserQuiz}}
+
+            <div class ="btn remove">Remove</div>
+            <a href="{{pathFor 'editQuiz'}}"> <div class ="btn edit">Edit</div></a>
+            {{/if}}
+        {{/if}}
+        </div>
+    </div>
+</template>

@@ -1,0 +1,24 @@
+<template name="header">
+    <header class="navbar">
+            <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li id="websitename"> <a href="{{pathFor 'home'}}">Quizz.it</a></li>
+                        <li><a href="{{pathFor 'quizList'}}">Take A Quiz</a></li>
+                        <li><a href="{{pathFor 'createQuiz'}}">Create a Quiz</a></li>
+                        <li><a href=" {{pathFor 'leaderboard'}}">Leaderboard</a></li>
+                        {{#if currentUser}} <li><a href="{{pathFor 'userPage'}}">My Account</a></li>{{/if}}
+
+                    </ul>
+                    <div class ="loginButton">
+                        {{> loginButtons align="right"}}
+                    </div>
+
+                </div>
+            </div>
+
+    </header>
+</template>

@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "iron-router": {},
+    "spin": {},
+    "accounts-ui-bootstrap-dropdown": {},
+    "jqueryui": {},
+    "jqBootstrapValidation": {},
+    "facebook-sdk": {}
+  }
+}

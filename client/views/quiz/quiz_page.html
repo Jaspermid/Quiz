@@ -1,0 +1,43 @@
+
+<template name="quizPage">
+<!-- shows an alert message if user is nog logged in -->
+
+    {{#if currentUser}}
+        {{else}}
+        <div class="alert alert-error">Please Login to save your questions and to be featured on the leaderboard.</div>
+    {{/if}}
+    <!-- check whether there are questions left, if so display the currentquestion and the answers-->
+    {{#if questionsLeft}}
+
+        {{#with question}}
+            {{>quizQuestion}}
+        {{/with}}
+
+        {{#each answers}}
+            {{>quizAnswer}}
+         {{/each}}
+
+    <!-- Progress bar-->
+        <div class="progress progress-striped">
+            <div class="bar" style="width: 5%;"></div>
+        </div>
+
+    <!-- Next and previous question buttons -->
+        <button class ="previous-question btn btn-default btn-lg">Previous Question</button>
+        <button class ="next-question btn btn-default btn-lg">Next Question</button>
+
+
+    <!-- display quiz result if there are no questions left -->
+        {{else}}
+            {{>quizResult}}
+        {{/if}}
+
+
+
+
+
+
+
+    </template>
+
+

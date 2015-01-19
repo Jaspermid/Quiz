@@ -1,0 +1,456 @@
+{
+    "question": "2014-06-25T14:05:55+00:00",
+    "@version": "1.03",
+    "iatiactivity": {
+        "@lang": "nl",
+        "@default-currency": "EUR",
+        "@hierarchy": "1",
+        "@last-updated-datetime": "2014-06-24T12:33:16+00:00",
+        "reporting-org": {
+            "@ref": "NL-KVK-34214586",
+            "@lang": "nl",
+            "#text": "Partos"
+        },
+        "iati-identifier": "NL-KVK-34214586-1",
+        "title": [
+            {
+                "@lang": "en",
+                "#text": "Partos Open Data Programme"
+            },
+            {
+                "@lang": "nl",
+                "#text": "Partos Open Data Programma"
+            }
+        ],
+        "description": [
+            {
+                "@lang": "en",
+                "#text": "The Partos Open Data programme is aimed at providing Dutch NGO's with support towards IATI implementation. We organises trainings to help organisations through every step of this implementation. From preparing your organisation, to Data Mapping, technical publication and the usage of data.  Furthermore we help NGO's through our IATI Help Desk and Knowledge Bank."
+            },
+            {
+                "@lang": "en",
+                "#text": "Dutch NGO's looking to implement IATI"
+            }
+        ],
+        "activity-status": {
+            "@code": "2"
+        },
+        "activity-date": [
+            {
+                "@iso-date": "2013-05-01"
+            },
+            {
+                "@iso-date": "2015-07-01"
+            },
+            {
+                "@iso-date": "2014-04-01"
+            }
+        ],
+        "contact-info": {
+            "organisation": "Partos",
+            "person-name": "Jasper Middendorp",
+            "job-title": "Programme Coordinator Open Data",
+            "telephone": "0203209901",
+            "email": "Jasper@partos.nl"
+        },
+        "participating-org": [
+            {
+                "@role": "Implementing",
+                "@ref": "NL-KVK-34214586",
+                "#text": "Partos"
+            },
+            {
+                "@role": "Funding",
+                "@ref": "NL-1",
+                "#text": "Ministry of Foreign Affairs"
+            },
+            {
+                "@role": "Funding",
+                "@ref": "NL-KVK-34214586",
+                "#text": "Partos"
+            },
+            {
+                "@role": "Accountable",
+                "@ref": "NL-KVK-34214586",
+                "#text": "Partos"
+            }
+        ],
+        "activity-scope": {
+            "@code": "4",
+            "#text": "Programme is limited to the support of Dutch NGO's"
+        },
+        "recipient-country": {
+            "@code": "NL",
+            "@percentage": "100"
+        },
+        "sector": {
+            "@code": "92010",
+            "@percentage": "100",
+            "@vocabulary": "DAC"
+        },
+        "policy-marker": {
+            "@code": "3",
+            "@significance": "2",
+            "@vocabulary": "DAC"
+        },
+        "collaboration-type": {
+            "@code": "2"
+        },
+        "default-flow-type": {
+            "@code": "20"
+        },
+        "default-finance-type": {
+            "@code": "110"
+        },
+        "budget": {
+            "period-start": {
+                "@iso-date": "2013-05-01"
+            },
+            "period-end": {
+                "@iso-date": "2015-07-01"
+            },
+            "value": {
+                "@value-date": "2013-05-01",
+                "#text": "275673"
+            }
+        },
+        "transaction": [
+            {
+                "transaction-type": {
+                    "@code": "E",
+                    "#text": "Salary Expenses Q2 2013"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-34214586",
+                    "#text": "Partos"
+                },
+                "value": {
+                    "@value-date": "2013-06-30",
+                    "#text": "12292"
+                },
+                "description": "Loonkosten IATI programma Q2 2013",
+                "transaction-date": {
+                    "@iso-date": "2013-06-30"
+                }
+            },
+            {
+                "transaction-type": {
+                    "@code": "IF"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-1",
+                    "#text": "Ministry of Foreign affairs"
+                },
+                "value": {
+                    "@value-date": "2013-07-24",
+                    "#text": "120295"
+                },
+                "transaction-date": {
+                    "@iso-date": "2013-07-24"
+                },
+                "disbursement-channel": {
+                    "@code": "2"
+                }
+            },
+            {
+                "transaction-type": {
+                    "@code": "E",
+                    "#text": "Salary Expenses Q3 2013"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-34214586",
+                    "#text": "Partos"
+                },
+                "value": {
+                    "@value-date": "2013-09-30",
+                    "#text": "10676"
+                },
+                "transaction-date": {
+                    "@iso-date": "2013-09-30"
+                }
+            },
+            {
+                "transaction-type": {
+                    "@code": "E",
+                    "#text": "Salary Q4 2013"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-34214586",
+                    "#text": "Partos"
+                },
+                "value": {
+                    "@value-date": "2014-03-31",
+                    "#text": "16414"
+                },
+                "transaction-date": {
+                    "@iso-date": "2014-03-31"
+                }
+            },
+            {
+                "transaction-type": {
+                    "@code": "E",
+                    "#text": "Various Expenses Q2 2013"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-34214586",
+                    "#text": "Partos"
+                },
+                "value": {
+                    "@value-date": "2013-06-30",
+                    "#text": "2240.67"
+                },
+                "description": "Various Expenses Q2 2013",
+                "transaction-date": {
+                    "@iso-date": "2013-06-30"
+                }
+            },
+            {
+                "transaction-type": {
+                    "@code": "E"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-34214586",
+                    "#text": "Partos"
+                },
+                "value": {
+                    "@value-date": "2013-09-30",
+                    "#text": "47.25"
+                },
+                "description": "Various Expenses Q3 2013",
+                "transaction-date": {
+                    "@iso-date": "2013-09-30"
+                }
+            },
+            {
+                "transaction-type": {
+                    "@code": "E"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-34214586",
+                    "#text": "Partos"
+                },
+                "value": {
+                    "@value-date": "2013-12-31",
+                    "#text": "10890.56"
+                },
+                "description": "Various Expenses Q4 2013",
+                "transaction-date": {
+                    "@iso-date": "2013-12-31"
+                }
+            },
+            {
+                "transaction-type": {
+                    "@code": "E"
+                },
+                "provider-org": {
+                    "@ref": "NL-KVK-34214586",
+                    "#text": "Partos"
+                },
+                "value": {
+                    "@value-date": "2014-03-31",
+                    "#text": "4428.6"
+                },
+                "description": "Various Expenses Q4 2013",
+                "transaction-date": {
+                    "@iso-date": "2014-03-31"
+                }
+            }
+        ],
+        "document-link": {
+            "@url": "http://aidstream.com/files/documents/Programma Ondersteuning Implementatie IATI door Nederlandse NGOs info 17012013 (2) (5).docx",
+            "@format": "application/msword",
+            "language": "nl",
+            "category": {
+                "@code": "A06"
+            },
+            "title": "Programma overeenkomst"
+        },
+        "activity-website": "http://www.partos.nl/iati",
+        "result": [
+            {
+                "title": "IATI - Scenario meeting",
+                "description": "Meeting on .....",
+                "indicator": {
+                    "@measure": "1",
+                    "@ascending": "true",
+                    "title": "Number of Participants",
+                    "description": "The number of participants in this meeting",
+                    "period": {
+                        "actual": {
+                            "@value": "25"
+                        }
+                    }
+                }
+            },
+            {
+                "@aggregation-status": "true",
+                "title": "IATI - Train the trainer meeting",
+                "description": "De Train-the trainer bijeenkomst is cursus voor consultants hier in Nederland om laatste ontwikkelingen binnen IATI te bespreken en expertise te creëren om organisaties optimaal te begeleiden bij de implementatie van IATI. De training werd verzorgd door medewerkers van Bond UK en het IATI secretariaat. In de trainingsdagen zijn de laatste ontwikkelingen binnen de IATI standaard, de IATI velden, koppeling van IATI datasets, best practices van Bond UK en de verschillende tooling voor IATI implementatie besproken.",
+                "indicator": {
+                    "@measure": "1",
+                    "title": "Aantal deelnemers bijeenkomst",
+                    "period": {
+                        "actual": {
+                            "@value": "5"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "IATI - Information meeting",
+                "description": "A general information meeting as part of the Partos programme to inform Dutch NGO's about the possibilities of IATI",
+                "indicator": {
+                    "@measure": "1",
+                    "title": "Number of participants",
+                    "description": "The number of participants in this meeting",
+                    "period": {
+                        "period-start": {
+                            "@iso-date": "2013-06-26"
+                        },
+                        "period-end": {
+                            "@iso-date": "2013-06-26"
+                        },
+                        "target": {
+                            "@value": "40"
+                        },
+                        "actual": {
+                            "@value": "82"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "IATI - Roadmap Session",
+                "description": "Opstellen implementatieplan: Implementatieplan, Peer groups en preparing the organisation for Data mapping phase.",
+                "indicator": {
+                    "@measure": "1",
+                    "title": "Number of participants",
+                    "period": {
+                        "actual": {
+                            "@value": "18"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "IATI- Data Mapping",
+                "description": "During the Data Mapping session we helped the participants to map their internal system information to the IATI standard. Furthermore we've shown them tools to visualise the changes to co-workers and an organisation that has already implemented shared their experience",
+                "indicator": {
+                    "@measure": "1",
+                    "@ascending": "true",
+                    "title": "Number of Participants",
+                    "period": {
+                        "target": {
+                            "@value": "17"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "Knowledge Bank",
+                "description": "To assist Dutch NGO's in finding IATI specific information that is relevant in the Dutch context we created the IATI knowledge bank which can be found at www.partos.nl/iati",
+                "indicator": {
+                    "@measure": "1",
+                    "@ascending": "true",
+                    "title": "Kennisbank Unique visitors",
+                    "period": {
+                        "period-start": {
+                            "@iso-date": "2014-06-01"
+                        },
+                        "period-end": {
+                            "@iso-date": "2015-03-31"
+                        },
+                        "target": {
+                            "@value": "40"
+                        },
+                        "actual": {
+                            "@value": "194"
+                        }
+                    }
+                }
+            },
+            {
+                "@aggregation-status": "false",
+                "title": "IATI - Information meeting",
+                "description": "A general information meeting as part of the Partos programme to inform Dutch NGO's about the possibilities of IATI",
+                "indicator": {
+                    "@measure": "1",
+                    "@ascending": "true",
+                    "title": "Number of Participants",
+                    "period": {
+                        "period-start": {
+                            "@iso-date": "2014-04-08"
+                        },
+                        "period-end": {
+                            "@iso-date": "2014-04-08"
+                        },
+                        "target": {
+                            "@value": "40"
+                        },
+                        "actual": {
+                            "@value": "63"
+                        }
+                    }
+                }
+            },
+            {
+                "@aggregation-status": "true",
+                "title": "IATI - CSV Meeting",
+                "description": "Meeting to support NGO's in using the CSV converter tool.",
+                "indicator": {
+                    "@measure": "1",
+                    "title": "Aantal deelnemers",
+                    "period": {
+                        "actual": {
+                            "@value": "3"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "IATI - Organisational Change",
+                "description": "Meeting on preparing your organisation for IATI implementation and the effects om organisational culture",
+                "indicator": {
+                    "@measure": "1",
+                    "title": "Number of participants",
+                    "period": {
+                        "actual": {
+                            "@value": "6"
+                        }
+                    }
+                }
+            },
+            {
+                "@aggregation-status": "true",
+                "title": "IATI - IATI for financials",
+                "description": "IATI meeting to inform the financial stakeholders about IATI and the financial side of implementation",
+                "indicator": {
+                    "@measure": "1",
+                    "title": "Number of participants",
+                    "description": "Number of participants attending the meeting",
+                    "period": {
+                        "actual": {
+                            "@value": "10"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "IATI - Second Round Kick-Off",
+                "description": "Meeting to start the publishing & implementing process for Dutch NGO's",
+                "indicator": {
+                    "@measure": "1",
+                    "@ascending": "true",
+                    "title": "Number of participants",
+                    "period": {
+                        "target": {
+                            "@value": "33"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+
+
+}

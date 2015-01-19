@@ -1,0 +1,516 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #ffffff;
+  	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #FFA340;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.navbar-inverse {
+	background-color: #FFA340;
+	border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: #1abc9c;
+}
+
+.brand {
+    color:white
+}
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f2f2f2;
+}
+
+
+#footer {
+	background-color: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: #1abc9c;
+}
+
+
+
+#map-canvas{
+    height:600px;
+    widtH:1000px;
+
+}
+.loginButton{
+
+
+float:right;
+}
+
+
+.navbar-inverse .nav > li > a {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#websitename {
+    font-size: 30px
+
+}
+
+.container {
+    text-align: center
+
+}
+
+#footer {
+    background-color: rgba(120, 118, 124, 0.52);
+
+}
+
+.grid-block, .main, .quiz, .comments li, .comment-form {
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
+
+#spinner {
+    height: 300px; }
+
+.quiz {
+    /* For modern browsers */
+    /* For IE 6/7 (trigger hasLayout) */
+    *zoom: 1;
+    position: relative;
+    opacity: 1; }
+.quiz:before, .quiz:after {
+    content: "";
+    display: table; }
+.quiz:after {
+    clear: both; }
+.quiz.invisible {
+    opacity: 0; }
+.quiz.instant {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none; }
+.quiz.animate{
+    -webkit-transition: all 300ms 0ms;
+    -webkit-transition-delay: ease-in;
+    -moz-transition: all 300ms 0ms ease-in;
+    -o-transition: all 300ms 0ms ease-in;
+    transition: all 300ms 0ms ease-in; }
+.quiz .upvote {
+    display: block;
+    margin: 7px 12px 0 0;
+    float: left; }
+.quiz .quiz-content {
+    float: left; }
+.quiz .quiz-content h3 {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 18px; }
+.quiz .quiz-content h3 a {
+    display: inline-block;
+    margin-right: 5px; }
+.quiz .quiz-content h3 span {
+    font-weight: normal;
+    font-size: 14px;
+    display: inline-block;
+    color: #aaaaaa; }
+.quiz .quiz-content p {
+    margin: 0; }
+.quiz .discuss {
+    display: block;
+    float: right;
+    margin-top: 7px; }
+
+.comments {
+    list-style-type: none;
+    margin: 0; }
+.comments li h4 {
+    font-size: 16px;
+    margin: 0; }
+.comments li h4 .date {
+    font-size: 12px;
+    font-weight: normal; }
+.comments li h4 a {
+    font-size: 12px; }
+.comments li p:last-child {
+    margin-bottom: 0; }
+
+.dropdown-menu span {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    line-height: 20px;
+    color: #bbb;
+    white-space: nowrap; }
+
+.load-more {
+    display: block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px; }
+.load-more:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.1); }
+
+.answer:hover {
+    background-color: #62B1d0;
+    cursor: pointer;
+}
+
+
+.highlight {
+    background-color: #597ED3;
+    color: white;
+}
+
+
+.highlight:hover{
+    background-color: #597ED3;
+    color: white;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: #597ED3;
+    color: white;
+
+}
+.question{
+    background-color: #ffc95c;
+    dcolor: white;
+    margin-top: 10px;
+}
+
+#score {
+    color: #597ED3;
+    font-size: 18px;
+    float: right;
+
+}
+
+.leaderboardquiz {
+    background-color: #ffc95c;
+    color: white;
+    margin-top:10px;
+}
+
+.leaderboardquiz:hover {
+    background-color: #597ED3
+}
+
+.questiontext {
+    color:white;
+}
+
+
+.remove {
+    float: right;
+    position: relative;
+}
+
+.edit {
+    float: right;
+    position: relative;
+    margin-right:10px
+}
+
+/* Create quiz */
+
+
+.quiztitleinput {
+    width:800px; margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.quizcategoryinput{
+    width:800px; margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin:10px;
+
+
+}
+
+.float{
+    float:left;
+}
+
+.remove-answer {
+    float: left;
+}
+.questionForm {
+    text-align: left;
+    border-radius: 15px;
+
+
+
+}
+
+.questiontitle{
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.input-xxlarge{
+    margin-top: 5px;
+    margin-left: 10px
+}
+
+.remove-answer{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.add-answer{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.correctanswerdiv{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.questionForm:nth-of-type(even) {
+    background-color: #ffc95c;
+
+}
+
+.remove-this-question{
+    float:right;
+    margin-right: 20px;
+}

@@ -1,0 +1,10 @@
+
+<template name ="answerForm">
+
+<div class ="questiontitle" >Answers</div>
+
+    {{#each answer}}
+<div><input type="text" id="{{this}}" class="form-control Answer input-xxlarge" placeholder="Please input Answer" width ="300 px" required><div class ="btn btn-default remove-answer" id="{{this}}" >-</div></div>
+{{/each}}
+
+</template>

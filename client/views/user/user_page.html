@@ -1,0 +1,68 @@
+
+
+<template name = 'userPage'>
+    <br>
+
+    <div id="ww">
+        <div class="container">
+
+            {{#if facebookuserloggedin}}
+
+            <img src="http://graph.facebook.com/{{facebookuser}}/picture/picture?type=large" alt="{{user}}">
+            {{else}}
+
+            <img src="user.png" alt="stanley">
+            {{/if}}
+            <h1>Welcome {{user}}</h1>
+
+
+
+
+
+
+
+
+    <h3>Your created Quizzes:</h3>
+
+            {{#each createdQuizzes}}
+                {{> quizItem}}
+
+            {{/each}}
+
+    <h3>Your Score:</h3>
+
+    {{#each quizzes}}
+    <div class = "leaderboardquiz quiz">
+
+
+        <div class="quiz-content">
+
+            {{quiztitle}}
+
+        </div>
+
+    </div>
+    {{#each test}}
+    <div class="quiz scores">
+        <div id ="score">{{this.score}}</div>
+        <div class="quiz-content">
+            <h3>{{this.user}}</h3>
+        </div>
+    </div>
+    {{/each}}
+
+
+
+    {{/each}}
+
+
+
+
+        </div>
+    </div>
+
+
+
+</template>
+
+

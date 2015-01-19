@@ -1,0 +1,45 @@
+<template name ="questionForm">
+
+
+
+    <div class ="questionForm" id={{this.questionnumber}}>
+    <div class ="questiontitle" >Question {{this.questionnumber}}:</div>
+    <input type="text" class="form-control questiontitleinput input-xxlarge " id="question{{this.questionnumber}}" placeholder="What's your question?" width ="300 px" required>
+
+
+        <div class ="btn btn-default remove-this-question">Remove Question</div>
+
+        {{>answerForm}}
+
+        <div class ="btn btn-default add-answer">+</div>
+
+
+
+
+     <div class ="correctanswerdiv ">
+
+         What is the correct answer?</div>
+
+
+
+    <select class="form-control input-xxlarge correctanswer required" id="correctanswer{{this.questionnumber}}">
+
+
+        <option value="" disabled selected>Fill in at least one answer before selecting an option</option>
+            {{#with questiondummy}}
+                    {{#each questionanswered ..}}
+
+                            {{#if this}}
+                            <option value="{{this}}">{{this}}</option>
+                            {{/if}}
+
+                    {{/each}}
+            {{/with}}
+                </select>
+    </div>
+
+
+
+
+
+</template>
